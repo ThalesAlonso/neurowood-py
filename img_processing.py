@@ -25,7 +25,7 @@ class Gaussian(Filter):
         image = img_as_float(image)
     return image
 
-def gaussian(image, sigma=1, output=None, mode='nearest', cval=0,
+    def gaussian(image, sigma=1, output=None, mode='nearest', cval=0,
              multichannel=None, preserve_range=False, truncate=4.0):
 
              spatial_dims = guess_spatial_dimensions(image)
